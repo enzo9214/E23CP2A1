@@ -1,0 +1,9 @@
+if (query == ""){
+			alert("Debe ingresar un selector jQuery!")
+		} else if (eval(query).exists()) {
+		
+			eval(query).css("background-color","yellow");
+			}
+		 else {
+			query = "no hay nada";  
+		  }
